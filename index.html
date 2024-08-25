@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML Tags Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #000000;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5px;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff; /* White color for links */
+      }
+
+      /* Add underline on hover */
+      a:hover {
+        text-decoration: underline;
+        color: #ffbf00; /* Blue color on hover */
+      }
+
+      nav a {
+        margin-right: 20px; /* Adds space to the right of each link */
+      }
+
+      nav a:last-child {
+        margin-right: 0; /* Removes the right margin from the last link */
+      }
+      section {
+        background-color: #fff;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      img {
+        margin-left: 12px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My favorite UFC fighters</h1>
+      <h2>Abdou Sayed</h2>
+      <nav>
+        <dl>
+          <dt>
+            <a href="#active">Best Active fighters</a>
+            <a href="#p4p">P4P fighters</a>
+            <a href="#upcoming">Upcoming fighters</a>
+          </dt>
+        </dl>
+      </nav>
+    </header>
+
+    <main>
+      <section id="active">
+        <h2>Best Active Fighters</h2>
+        <p>These are the best active fighters regardless of the division</p>
+        <img
+          src="https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=350&h=254"
+          alt="Image of Islam Makhachev"
+        />
+        <img
+          src="https://dmxg5wxfqgb4u.cloudfront.net/2024-02/TOPURIA_ILIA_BELT-298.png"
+          alt="Image of Ilia Topuria"
+        />
+        <img
+          src="https://dmxg5wxfqgb4u.cloudfront.net/2024-06/PEREIRA_ALEX_BELT_06-29.png"
+          alt="Image of Alex Pereira"
+        />
+      </section>
+      <!-- P4P FIGHTERS -->
+      <section id="p4p">
+        <h2>P4P Fighters</h2>
+        <p>These are the P4P fighters</p>
+        <img
+          src="https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2335639.png&w=350&h=254"
+          alt=""
+        />
+        <img
+          src="https://dmxg5wxfqgb4u.cloudfront.net/2024-06/PEREIRA_ALEX_BELT_06-29.png"
+          alt="Image of Alex Pereira"
+        />
+        <img
+          src="https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3332412.png&w=350&h=254"
+          alt="Image of Islam Makhachev"
+        />
+      </section>
+      <!-- Upcoming fighters -->
+      <section id="upcoming">
+        <h2>Upcoming Fighters</h2>
+        <p>These are the upcoming fighters with huge potential</p>
+        <img
+          src="https://a.espncdn.com/i/headshots/mma/players/full/5144008.png"
+          alt="Image of Payton Talbott"
+        />
+        <img
+          src="https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_sm/s3/2023-01/GettyImages-1433675602.jpg?h=d1cb525d&itok=pB3CE9cS"
+          alt="Image of Tatsuro Taira"
+        />
+        <img
+          src="https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4869426.png&w=350&h=254"
+          alt="Michael Morales"
+        />
+      </section>
+    </main>
+  </body>
+</html>
